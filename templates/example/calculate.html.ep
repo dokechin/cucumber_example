@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>飼育計画</title>
+  </head>
+  <body>
+    飼育に必要な飼料は
+    <span id="colorie"><%= $colorie %>MJ</span>
+    <span id="protein"><%= $protein %>kg</span>
+  </body>
+</html>

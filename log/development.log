@@ -1,0 +1,130 @@
+[Fri Apr  1 07:47:52 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 07:47:53 2016] [debug] GET "/"
+[Fri Apr  1 07:47:53 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 07:47:53 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 07:47:53 2016] [debug] Rendering template "layouts/default.html.ep"
+[Fri Apr  1 07:47:53 2016] [debug] 200 OK (0.008087s, 123.655/s)
+[Fri Apr  1 07:48:38 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 07:48:38 2016] [debug] GET "/"
+[Fri Apr  1 07:48:38 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 07:48:38 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 07:48:38 2016] [error] Template "/home/user/work/cucumber_example/templates/example/welcome.html.ep" has invalid encoding at /usr/lib/perl5/site_perl/5.14/Mojolicious/Plugin/EPLRenderer.pm line 39.
+
+[Fri Apr  1 07:48:38 2016] [debug] Template "exception.development.html.ep" not found
+[Fri Apr  1 07:48:38 2016] [debug] Template "exception.html.ep" not found
+[Fri Apr  1 07:48:38 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 07:48:38 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 07:48:38 2016] [debug] 500 Internal Server Error (0.049667s, 20.134/s)
+[Fri Apr  1 07:49:04 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 07:49:04 2016] [debug] GET "/"
+[Fri Apr  1 07:49:04 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 07:49:04 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 07:49:04 2016] [debug] 200 OK (0.011022s, 90.728/s)
+[Fri Apr  1 07:49:10 2016] [debug] POST "/calculate"
+[Fri Apr  1 07:49:10 2016] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr  1 07:49:10 2016] [debug] Template "not_found.html.ep" not found
+[Fri Apr  1 07:49:10 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 07:49:10 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 07:49:10 2016] [debug] 404 Not Found (0.039080s, 25.589/s)
+[Fri Apr  1 07:59:07 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 07:59:07 2016] [debug] GET "/"
+[Fri Apr  1 07:59:07 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 07:59:07 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 07:59:07 2016] [debug] 200 OK (0.011845s, 84.424/s)
+[Fri Apr  1 07:59:09 2016] [debug] POST "/calculate"
+[Fri Apr  1 07:59:09 2016] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr  1 07:59:09 2016] [debug] Template "not_found.html.ep" not found
+[Fri Apr  1 07:59:09 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 07:59:09 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 07:59:09 2016] [debug] 404 Not Found (0.040732s, 24.551/s)
+[Fri Apr  1 08:00:00 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 08:00:00 2016] [debug] GET "/"
+[Fri Apr  1 08:00:00 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 08:00:00 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 08:00:00 2016] [debug] 200 OK (0.011625s, 86.022/s)
+[Fri Apr  1 08:00:01 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:00:01 2016] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr  1 08:00:01 2016] [debug] Template "not_found.html.ep" not found
+[Fri Apr  1 08:00:01 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 08:00:01 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 08:00:01 2016] [debug] 404 Not Found (0.040896s, 24.452/s)
+[Fri Apr  1 08:00:48 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:00:48 2016] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr  1 08:00:48 2016] [debug] Template "not_found.html.ep" not found
+[Fri Apr  1 08:00:48 2016] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 08:00:48 2016] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 08:00:48 2016] [debug] 404 Not Found (0.020000s, 50.000/s)
+[Fri Apr  1 08:00:52 2016] [debug] GET "/"
+[Fri Apr  1 08:00:52 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 08:00:52 2016] [debug] Rendering cached template "example/welcome.html.ep"
+[Fri Apr  1 08:00:52 2016] [debug] 200 OK (0.001867s, 535.619/s)
+[Fri Apr  1 08:00:58 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 08:00:58 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:00:58 2016] [debug] Template "not_found.development.html.ep" not found
+[Fri Apr  1 08:00:58 2016] [debug] Template "not_found.html.ep" not found
+[Fri Apr  1 08:00:58 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 08:00:58 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 08:00:58 2016] [debug] 404 Not Found (0.041153s, 24.300/s)
+[Fri Apr  1 08:01:14 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 08:01:14 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:01:14 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 08:01:14 2016] [debug] Action not found in controller
+[Fri Apr  1 08:01:14 2016] [debug] Rendering template "example/calculate.html.ep"
+[Fri Apr  1 08:01:14 2016] [error] Global symbol "$colorie" requires explicit package name at template example/calculate.html.ep line 8.
+Global symbol "$protein" requires explicit package name at template example/calculate.html.ep line 9.
+3:   <head>
+4:     <title>飼育計画</title>
+5:   </head>
+6:   <body>
+7:     飼育に必要な飼料は
+8:     <span id="colorie"><%= $colorie %>MJ</span>
+9:     <span id="protein"><%= $protein %>kg</span>
+10:   </body>
+11: </html>
+
+[Fri Apr  1 08:01:14 2016] [debug] Template "exception.development.html.ep" not found
+[Fri Apr  1 08:01:14 2016] [debug] Template "exception.html.ep" not found
+[Fri Apr  1 08:01:14 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 08:01:14 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 08:01:14 2016] [debug] 500 Internal Server Error (0.061015s, 16.389/s)
+[Fri Apr  1 08:08:02 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 08:08:02 2016] [debug] GET "/"
+[Fri Apr  1 08:08:02 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 08:08:02 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 08:08:02 2016] [debug] 200 OK (0.011804s, 84.717/s)
+[Fri Apr  1 08:08:03 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:08:03 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 08:08:03 2016] [debug] Action not found in controller
+[Fri Apr  1 08:08:03 2016] [debug] Rendering template "example/calculate.html.ep"
+[Fri Apr  1 08:08:03 2016] [debug] 200 OK (0.005631s, 177.588/s)
+[Fri Apr  1 08:08:09 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:08:09 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 08:08:09 2016] [debug] Action not found in controller
+[Fri Apr  1 08:08:09 2016] [debug] Rendering cached template "example/calculate.html.ep"
+[Fri Apr  1 08:08:09 2016] [debug] 200 OK (0.003381s, 295.770/s)
+[Fri Apr  1 08:11:02 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 08:11:02 2016] [debug] GET "/"
+[Fri Apr  1 08:11:02 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 08:11:02 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 08:11:02 2016] [debug] 200 OK (0.013489s, 74.134/s)
+[Fri Apr  1 08:11:03 2016] [debug] POST "/calculate"
+[Fri Apr  1 08:11:03 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 08:11:03 2016] [debug] Action not found in controller
+[Fri Apr  1 08:11:03 2016] [debug] Rendering template "example/calculate.html.ep"
+[Fri Apr  1 08:11:03 2016] [error] Global symbol "$colorie" requires explicit package name at template example/calculate.html.ep line 8.
+Global symbol "$protein" requires explicit package name at template example/calculate.html.ep line 9.
+3:   <head>
+4:     <title>飼育計画</title>
+5:   </head>
+6:   <body>
+7:     飼育に必要な飼料は
+8:     <span id="colorie"><%= $colorie %>MJ</span>
+9:     <span id="protein"><%= $protein %>kg</span>
+10:   </body>
+11: </html>
+
+[Fri Apr  1 08:11:03 2016] [debug] Template "exception.development.html.ep" not found
+[Fri Apr  1 08:11:03 2016] [debug] Template "exception.html.ep" not found
+[Fri Apr  1 08:11:03 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Apr  1 08:11:03 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Apr  1 08:11:03 2016] [debug] 500 Internal Server Error (0.063283s, 15.802/s)
