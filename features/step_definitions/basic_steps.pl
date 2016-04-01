@@ -2,34 +2,31 @@
 
 use strict;
 use warnings;
+use utf8;
 
-use Digest;
-use Test::More;
-
+use Test::Mojo;
 use Test::BDD::Cucumber::StepFile;
 
-Given qr/a usable "(\w+)" class/, sub { use_ok( C->matches->[0] ); };
+Given qr/体重(.+)kgの牛/, sub {
+  my $t = Test::Mojo->new('Cucumber::Example');
+  $t->get_ok('/');
+  S->{'t'} = $t;
+  my $cow = sprintf("cow_%s" , C->matches->[0]);
+  S->{'feed_type'} = $cow;
 
-Given qr/a Digest (\S+) object/, sub {
-    my $object = Digest->new( C->matches->[0] );
-    ok( $object, "Object created" );
-    S->{'object'} = $object;
 };
 
-When qr/I've added "(.+)" to the object/, sub {
-    S->{'object'}->add( C->matches->[0] );
+When qr/飼料の必要量を計算する/, sub {
+  S->{'t'}->post_ok('/calculate' => form => {feed_type => S->{'feed_type'}});
+
 };
 
-When "I've added the following to the object", sub {
-    S->{'object'}->add( C->data );
+Then qr/カロリー(.+)MJ/, sub {
+  my $mj = sprintf("%sMJ" , C->matches->[0]);
+  S->{'t'}->content_like(qr/$mj/);
 };
 
-Then qr/the (.+) output is "(.+)"/, sub {
-    my ( $type, $expected ) = @{ C->matches };
-    my $method = {
-        'base64' => 'b64digest',
-        'hex'    => 'hexdigest'
-    }->{$type};
-
-    is( S->{'object'}->$method, $expected );
+Then qr/タンパク(.+)kg/, sub {
+  my $kg = sprintf("%skg" , C->matches->[0]);
+  S->{'t'}->content_like(qr/$kg/);
 };

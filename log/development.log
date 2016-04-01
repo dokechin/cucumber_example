@@ -128,3 +128,16 @@ Global symbol "$protein" requires explicit package name at template example/calc
 [Fri Apr  1 08:11:03 2016] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Fri Apr  1 08:11:03 2016] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Fri Apr  1 08:11:03 2016] [debug] 500 Internal Server Error (0.063283s, 15.802/s)
+[Fri Apr  1 21:54:24 2016] [debug] Your secret passphrase needs to be changed
+[Fri Apr  1 21:54:24 2016] [debug] GET "/"
+[Fri Apr  1 21:54:24 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "welcome"
+[Fri Apr  1 21:54:24 2016] [debug] Rendering template "example/welcome.html.ep"
+[Fri Apr  1 21:54:24 2016] [debug] 200 OK (0.012470s, 80.192/s)
+[Fri Apr  1 21:54:26 2016] [debug] POST "/calculate"
+[Fri Apr  1 21:54:26 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 21:54:26 2016] [debug] Rendering template "example/calculate.html.ep"
+[Fri Apr  1 21:54:26 2016] [debug] 200 OK (0.005573s, 179.437/s)
+[Fri Apr  1 21:54:30 2016] [debug] POST "/calculate"
+[Fri Apr  1 21:54:30 2016] [debug] Routing to controller "Cucumber::Example::Controller::Example" and action "calculate"
+[Fri Apr  1 21:54:30 2016] [debug] Rendering cached template "example/calculate.html.ep"
+[Fri Apr  1 21:54:30 2016] [debug] 200 OK (0.001837s, 544.366/s)

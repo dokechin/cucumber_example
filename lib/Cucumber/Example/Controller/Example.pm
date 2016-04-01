@@ -9,7 +9,7 @@ sub welcome {
   $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
 }
 
-sub caluculate {
+sub calculate {
   my $self = shift;
 
   if ($self->param("feed_type") eq "cow_450"){

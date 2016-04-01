@@ -5,7 +5,7 @@
   </head>
   <body>
     <form name="calculate" action="/calculate" method="post">
-      <select id="feed_type">
+      <select name="feed_type">
         <option value="cow_450">体重450kgの牛</option>
         <option value="cow_500">体重500kgの牛</option>
       </select>
