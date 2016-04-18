@@ -1,0 +1,17 @@
+default:
+          includes:
+             # include location where extensions reside on disk
+             - t/lib
+             - lib
+          steps:
+             - steps/firefox
+             - steps
+chrome:
+          includes:
+             # include location where extensions reside on disk
+             - t/lib
+             - lib
+          steps:
+             - steps/chrome
+             - steps
+
