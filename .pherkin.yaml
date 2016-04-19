@@ -15,3 +15,20 @@ chrome:
              - steps/chrome
              - steps
 
+phantomjs:
+          includes:
+             # include location where extensions reside on disk
+             - t/lib
+             - lib
+          steps:
+             - steps/phantomjs
+             - steps
+
+ie:
+          includes:
+             # include location where extensions reside on disk
+             - t/lib
+             - lib
+          steps:
+             - steps/ie
+             - steps
